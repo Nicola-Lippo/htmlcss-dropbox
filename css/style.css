@@ -10,7 +10,12 @@
     width: 100%;
 }
 
-.container {
+.container-big {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container-med {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -23,6 +28,10 @@
 /* FINE CLASSI DI UTILITY */
 
 /* CLASSI COL- */
+
+.col-33 {
+    width: calc(100% / 3);
+}
 
 .col-40 {
     width: 40%;
@@ -62,7 +71,7 @@
 .contenuto {
     background-color: blueviolet;
     border: 1px solid black;
-    margin: 15px;
+    margin: 10px;
 }
 
 /* PRIMO BLOCCO */
@@ -79,4 +88,12 @@
 
 .h-200 { 
     height: 200px;
+}
+
+.h-300 { 
+    height: 300px;
+}
+
+.h-600 { 
+    height: 600px;
 }

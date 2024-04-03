@@ -31,6 +31,18 @@
 
 /* FINE CLASSI DI UTILITY */
 
+/* CLASSI DI PADDING E MARGIN  */
+
+.margin-40-0 {
+    margin: 40px 0;
+}
+
+.marg-top-100 {
+    margin-top: 100px;
+}
+
+/* FINE CLASSI DI PADDING E MARGIN  */
+
 /* CLASSI COL- */
 
 .col-20 {
@@ -62,9 +74,12 @@
 /* HEADER LAYAOUT */
 
 .cont-header {
-    height: 50px;
-    background-color: blue;
     border: 1px solid black;
+}
+
+#logo {
+    width: 140px;
+    margin: 30px;
 }
 
 
@@ -80,6 +95,53 @@
     background-color: blueviolet;
     border: 1px solid black;
     margin: 10px;
+}
+
+.content {
+    margin: 10px;
+}
+
+.content-2 {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.bottone-blu {
+    background-color: rgb(0, 115, 255);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 { 
+    font-size: 60px;
+}
+
+/* PRIMO BLOCCO */
+
+h1 {
+    font-size: 100px;
+}
+
+.testo {
+    font-size: 30px;
+}
+
+.foto-jambo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 130%;
+}
+
+/* SECONDO BLOCCO */
+
+
+
+/* TERZO BLOCCO */
+
+#foto-block-3 {
+    width: 100%;
 }
 
 /* QUINTO BLOCCO */

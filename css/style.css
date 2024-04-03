@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
-/* CLASSI DI UTILITY */
+/* CLASSI DI UTILITY + CONTAINER */
 
-.d-flex {
-    display: flex;
+.container-100 {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .riga {
@@ -15,47 +20,63 @@
     flex-wrap: wrap;
 }
 
-.space-bet {
-    justify-content: space-between;
+/* FINE CLASSI DI UTILITY */
+
+/* CLASSI COL- */
+
+.col-40 {
+    width: 40%;
 }
 
-/* FINE CLASSI DI UTILITY */
+.col-50 {
+    width: 50%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+/* FINE CLASSI COL- */
 
 /* HEADER LAYAOUT */
 
-header {
+.cont-header {
+    height: 50px;
     background-color: blue;
-    height: 60px;
+    border: 1px solid black;
 }
 
-.cont-header {
-    width: 300px;
-    height: 60px;
-    background-color: blueviolet;
-    
-}
 
 /* FINE HEADER LAYAOUT */
 
 /* MAIN LAYAOUT */
 
-.max-container {
-    height: 600px;
-    width: 100%;
-    background-color: rgb(140, 226, 226);
+.azzurro { 
+    background-color: rgb(133, 207, 207);
 }
 
 .contenuto {
-    margin: 0 auto;
+    background-color: blueviolet;
+    border: 1px solid black;
+    margin: 15px;
 }
 
 /* PRIMO BLOCCO */
 
-#testo-iniziale {
-    width: 800px;
-    height: 60px;
-    background-color: blueviolet;
-}
 
 
 /* FINE MAIN LAYAOUT */
+
+/* CANCELLARE PROSSIMAMENTE ALTEZZE FISSE PER BLOCCHI COLORATI */
+
+.h-40 {
+    height: 40px;
+}
+
+.h-200 { 
+    height: 200px;
+}

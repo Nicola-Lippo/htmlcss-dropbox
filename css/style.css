@@ -29,6 +29,10 @@
     flex-wrap: wrap;
 }
 
+.space-bet {
+    justify-content: space-between;
+}
+
 /* FINE CLASSI DI UTILITY */
 
 /* CLASSI DI PADDING E MARGIN  */
@@ -198,6 +202,29 @@ h3 {
     background-color: red;
 }
 
+#centro-grigio {
+    margin: 0 40px;
+}
+
+#centro-grigio > * {
+    margin: 50px 0;
+    font-size: 30px;
+}
+
+/* SESTO BLOCCO */
+
+.viola {
+    color: blueviolet;
+}
+
+.bottone-bianco {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: grey;
+}
+
 /* FINE MAIN LAYAOUT */
 
 /* CANCELLARE PROSSIMAMENTE ALTEZZE FISSE PER BLOCCHI COLORATI */
@@ -228,6 +255,25 @@ h3 {
 
 /* LAYAOUT FOOTER */
 
+footer {
+    color: white;
+}
+
 #nero {
     background-color: black;
+}
+
+.con-foot {
+    margin-top: 100px;
+}
+
+.tit-ul {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.con-foot ul li{
+    margin: 20px 0;
+    font-size: 30px;
+    list-style: none;
 }
